@@ -1,0 +1,61 @@
+title: "The Pitch Structure"
+description: "A companion guide to the show"
+url: "https://thepitchstructure.com"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Collections
+collections:
+  episodes:
+    output: true
+    permalink: /episodes/:path/
+  concepts:
+    output: true
+    permalink: /concepts/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: single
+      sidebar:
+        nav: "episodes"
+  - scope:
+      path: ""
+      type: concepts
+    values:
+      layout: single
+      sidebar:
+        nav: "episodes"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "episodes"
+
+# Author info
+author:
+  name: ""
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

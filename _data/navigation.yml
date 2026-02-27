@@ -1,0 +1,23 @@
+episodes:
+  - title: "Episodes"
+    children:
+      - title: "Episode 1: Lucky"
+        url: /episodes/01-lucky/
+      - title: "Episode 2: TBD"
+        url: /episodes/02-tbd/
+      - title: "Episode 3: TBD"
+        url: /episodes/03-tbd/
+      - title: "Episode 4: TBD"
+        url: /episodes/04-tbd/
+      - title: "Episode 5: TBD"
+        url: /episodes/05-tbd/
+      - title: "Episode 6: TBD"
+        url: /episodes/06-tbd/
+      - title: "Episode 7: TBD"
+        url: /episodes/07-tbd/
+      - title: "Episode 8: TBD"
+        url: /episodes/08-tbd/
+      - title: "Episode 9: TBD"
+        url: /episodes/09-tbd/
+      - title: "Episode 10: TBD"
+        url: /episodes/10-tbd/
