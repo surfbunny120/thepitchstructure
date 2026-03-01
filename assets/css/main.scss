@@ -1,0 +1,10 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Custom font override */
+html, body, .page__content, .sidebar, .nav__list, .masthead, .page__title, h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: 'Times New Roman', Times, serif !important;
+}
