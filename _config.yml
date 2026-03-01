@@ -1,7 +1,7 @@
 title: "The Pitch Structure"
 description: "A companion guide to the show"
-url: "https://thepitchstructure.com"
-baseurl: ""
+url: "https://surfbunny120.github.io"
+baseurl: "/thepitchstructure"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
@@ -16,6 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Collections
 collections:
