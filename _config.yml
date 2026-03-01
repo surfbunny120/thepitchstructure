@@ -55,6 +55,13 @@ defaults:
 author:
   name: ""
 
+# Footer
+footer:
+  links: []
+
+atom_feed:
+  hide: true
+
 # Exclude from build
 exclude:
   - Gemfile
